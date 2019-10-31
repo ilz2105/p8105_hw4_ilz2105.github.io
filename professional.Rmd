@@ -9,8 +9,20 @@ output:
 
 # Work Experience
 
-![](Isabella_Zhang_resume.pdf)
+Over the summer I worked at the Department of Epidemiology at Columbia University, as a part of the Data Science Translation and Engagement Group which promotes secondary analysis of data in the the NIEHS funded, Children’s Health Exposure Analysis Resource (CHEAR). The CHEAR Data Center at Mount Sinai has created a public data repository that houses deidentified data from all studies accepted into the CHEAR program and secondary analysis is done by collaborating with both computer scientists and environmental health researchers to precisely annotate study data in order to facilitate harmonization and data pooling across studies.
+
+I annotated CHEAR study data dictionaries with data and metadata standards. These standards have been derived from common epidemiologic resources such as the Dictionary of Epidemiology, as well as existing ontologies. Other responsibilities included literature searches and summaries related to the specific CHEAR studies, participating in quality control procedures, communication with members of the CHEAR Data Center to clarify discrepancies in study documents and documentation of annotation processes for use by future Data Center members.
+
+I have also worked as a Research Assistant in a Clinical Sleep Lab at Brigham & Women's Hospital under Frank Scheer. There I assisted with various sleep studies looking at circadian rhythms and their effects on metabolism, cognition, and other outcomes. 
+
 
 # Academic Experience
+
+I am currently working on completing my MPH at Columbia Univeristy Mailman School of Public Health in Epdemiology with a certificate in Chronic Disease Epidemiology. I went to Northeastern Univeristy in Boston, MA for undergrad and recieved a BA in Biology and a minor in Neuroscience. 
+
+# Resume
+A detailed list of my education and professional background can be found [here](Isabella_Zhang_resume.pdf).
+
+
 
 

@@ -1,0 +1,12 @@
+
+blockquote {
+  font-style: italic
+}
+
+.container a jpg{
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}

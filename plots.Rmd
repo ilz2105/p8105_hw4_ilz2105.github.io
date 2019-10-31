@@ -1,9 +1,55 @@
 ---
-title: "plotly"
+title: "My dashboard"
 output: 
-  html_document:
-    toc: true
-    toc_float: true 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
 ---
 
 here are some _interactive graphics_ !!
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+library(tidyverse)
+library(viridis)
+library(p8105.datasets)
+library(plotly)
+```
+
+
+
+```{r}
+# load the data
+set.seed(1)
+
+data("instacart") 
+instacart 
+
+```
+
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### Chart A
+
+Scatterplot: 
+
+Boxplot: Average time of day for order for every day of the week 
+
+Bar plot: Most popular Aisles ordered from with more than 5000 items ordered
+```{r}
+plot1 = instacart %>%
+  select(aisle, department)%>% 
+  group_by(department) %>% 
+   count(aisle) %>% 
+  arrange(desc(n)) %>% 
+  filter(n > 20000) %>% 
+  mutate(
+    aisle = fct_reorder( aisle, n),
+    text_label = str_c("department", department,"aisle", aisle, "count", n)) %>% 
+  plot_ly(x = ~aisle, y = ~n, color = ~department, type = "bar")
+ 
+  
+plot1
+```
+

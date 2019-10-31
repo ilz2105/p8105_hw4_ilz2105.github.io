@@ -1,14 +1,20 @@
-name: "Yay internet!"
+name: "lulus-website"
 output_dir: "."
 navbar:
-  title: "Home"
+  title: "Lulu's Website"
   right:
-    - text: "About"
+    - text: "Home"
       href: about.html
+    - icon: fab fa-linkedin
+      href: https://www.linkedin.com/in/luluzhang24/
+    - text: "Plotly"
+      href: plotly.html
     - icon: fa-envelope fa-lg
       href: mailto:<you@youremail.com>
     - icon: fa-github fa-lg
       href: http://github.com/<ilz2105>/
 output:
   html_document:
-    theme: cerulean
+    theme: flatly
+    highlight: textmate
+    css: styles.css

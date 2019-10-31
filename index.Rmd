@@ -1,18 +1,22 @@
 ---
-title: "My website for Homework 4"
+title: "My Website!"
 output: 
   html_document:
     toc: true
     toc_float: true
 ---
 
+- __Name:__ Lulu
+- __Ocupation:__ Tired Student
+- __Hobbies:__ Doing data science, ovbiously 
 
+My education and professional background can be found [here](professional.html)
 
-You can see my experience [here](professional.html)
-## Resume
-## Work Experience
+Here is a super cool photo of me hugging a tree because trees are great.
 
-This is my website for Homework 4!
  ![](tree_hug.JPG)
 
-You can learn more about me [here](about.html)
+This is my dog, Caedon. I miss him very much. 
+![](caedon.jpg)
+
+

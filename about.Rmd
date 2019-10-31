@@ -1,5 +1,5 @@
 ---
-title: "about me"
+title: "About Me"
 output: 
   html_document:
     toc: true
@@ -7,4 +7,14 @@ output:
     
 ---
 
-This is about me!!
+- __Name:__ Lulu
+- __Ocupation:__ Tired Student
+- __Hobbies:__ Doing data science, ovbiously 
+
+Here is a super cool photo of me hugging a tree because trees are great.
+
+ ![](tree_hug.JPG)
+ 
+ I'm currently taking data science and learning all sorts of cool things about R. Some work I've done with R can be found [here](https://github.com/ilz2105). 
+ 
+ My linkedin profile can be viewed [here](https://www.linkedin.com/in/luluzhang24/). 
