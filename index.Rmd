@@ -4,12 +4,11 @@ output:
   html_document:
     toc: true
     toc_float: true
-    theme: cerulean
 ---
 
-# Home
-# About me
-# Professional Experience
+
+
+You can see my experience [here](professional.html)
 ## Resume
 ## Work Experience
 
